@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">E-commerce-master-android</string>
+
+    <string name="loading">Carregando...</string>
+</resources>
