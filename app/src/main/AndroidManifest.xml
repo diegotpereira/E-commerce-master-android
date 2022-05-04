@@ -2,13 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.e_commerce_master_android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Ecommercemasterandroid">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".home.HomeContaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeCarrinhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeCategoriaActivity"
+            android:exported="false" />
         <activity
             android:name=".auth.GoogleEntrarActivity"
             android:exported="false" />
