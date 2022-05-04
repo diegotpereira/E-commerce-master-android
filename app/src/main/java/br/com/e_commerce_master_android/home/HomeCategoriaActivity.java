@@ -24,6 +24,8 @@ public class HomeCategoriaActivity extends Fragment {
         View v = inflater.inflate(R.layout.activity_home_categoria, container, false);
 
         Button btn_sapatos = (Button) v.findViewById(R.id.btn_sapatos_categoria);
+        Button btn_roupas = (Button) v.findViewById(R.id.botao_roupa_baixo_categoria);
+        Button btn_top_roupas = (Button) v.findViewById(R.id.botao_top_roupa_categoria);
 
         // Define um listener de cliques nessa View
         btn_sapatos.setOnClickListener(new View.OnClickListener() {
@@ -32,6 +34,21 @@ public class HomeCategoriaActivity extends Fragment {
             @Override
             public void onClick(View view) {
                 // Crie um novo intent para abrir o {@link NumbersActivity}
+                Intent produtoActivity = new Intent(getActivity(), ProdutoActivity.class);
+                startActivity(produtoActivity);
+            }
+        });
+        btn_roupas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Crie um novo intent para abrir o {@link NumbersActivity}
+                Intent produtoActivity = new Intent(getActivity(), ProdutoActivity.class);
+                startActivity(produtoActivity);
+            }
+        });
+        btn_top_roupas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 Intent produtoActivity = new Intent(getActivity(), ProdutoActivity.class);
                 startActivity(produtoActivity);
             }

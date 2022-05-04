@@ -31,7 +31,7 @@
             android:text="Bottomwear"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:id="@+id/button_bottomwear_category"
+            android:id="@+id/botao_roupa_baixo_categoria"
             />
         <Button
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:layout_weight="1"
             android:background="@drawable/topwear_category"
             android:text="Topwear"
-            android:id="@+id/button_topwear_category"
+            android:id="@+id/botao_top_roupa_categoria"
             android:textSize="20sp"
             android:textStyle="bold"
             />
