@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/Ecommercemasterandroid/app/src/main/res/drawable/tab_indicator_default.xml" value="0.1365" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/Ecommercemasterandroid/app/src/main/res/drawable/tab_indicator_selected.xml" value="0.126" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/Ecommercemasterandroid/app/src/main/res/layout/activity_base.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/administrator/AndroidStudioProjects/Ecommercemasterandroid/app/src/main/res/layout/activity_email_password.xml" value="0.1" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/Ecommercemasterandroid/app/src/main/res/layout/activity_google_entrar.xml" value="0.25815217391304346" />
       </map>
     </option>
   </component>

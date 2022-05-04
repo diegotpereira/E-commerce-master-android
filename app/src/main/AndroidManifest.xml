@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ecommercemasterandroid">
         <activity
-            android:name=".auth.EmailPasswordActivity"
+            android:name=".auth.GoogleEntrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".auth.BaseActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".auth.EmailPasswordActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

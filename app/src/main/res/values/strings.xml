@@ -2,4 +2,14 @@
     <string name="app_name">E-commerce-master-android</string>
 
     <string name="loading">Carregando...</string>
+    <string name="auth_failed">Falha na Autenticação</string>
+    <string name="signed_out">Assinado</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="sign_in">Entrar</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="sair">Sair</string>
+    <string name="verificar_email">Verificar Email</string>
+    <string name="desc_firebase_lockup">Firebase Logo e Nome</string>
+    <string name="emailpassword_titulo_texto">Email e Senha</string>
 </resources>
